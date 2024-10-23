@@ -18,8 +18,8 @@ Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                             
 Console.WriteLine("***************************************************************************");
 
 int value = 5;
-int startValue = 5;
-int stopValue = 3;
+int startValue = 1;
+int stopValue = 6;
 
 Console.WriteLine("Переменная Х = " + value);
 Console.WriteLine("Старт шага = " + startValue);
