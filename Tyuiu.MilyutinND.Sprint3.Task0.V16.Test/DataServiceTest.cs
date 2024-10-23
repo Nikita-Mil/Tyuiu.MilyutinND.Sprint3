@@ -13,12 +13,12 @@ namespace Tyuiu.MilyutinND.Sprint3.Task0.V16.Test
             DataService ds = new DataService();
 
             int value = 5;
-            int startValue = 5;
-            int stopValue = 3;
+            int startValue = 1;
+            int stopValue = 6;
 
             double res = ds.GetMultiplySeries(startValue, stopValue, value);
 
-            double wait = 1;
+            double wait = 0;
 
             Assert.AreEqual(wait, res);
 

@@ -29,4 +29,5 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));    
+Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
+Console.ReadKey();
