@@ -8,10 +8,13 @@ namespace Tyuiu.MilyutinND.Sprint3.Task1.V30.Lib
         {
             //sumseries
             double sumSeries = 0;
+            double k;
+
             while (startValue <= stopValue)
 
             {
-                sumSeries = sumSeries + ((Math.Pow(stopValue, value) + (5 / (value + 4))) * Math.Sin(stopValue));
+                k = Convert.ToDouble(startValue);
+                sumSeries = sumSeries + ((Math.Pow(value, k) + (5 / (k + 4))) * Math.Sin(value));
                 startValue++;
             }
             return Math.Round(sumSeries, 3);
