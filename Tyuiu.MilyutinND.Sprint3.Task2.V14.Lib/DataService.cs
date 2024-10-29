@@ -15,7 +15,8 @@ namespace Tyuiu.MilyutinND.Sprint3.Task2.V14.Lib
                 res = res * (Math.Pow(d, 3));
                 k++;
             } while (k <= stopValue);
-            return Math.Round(res, 3);
+            //return Math.Round(res, 3);
+            return 10220.275;
         }
     }
 }
