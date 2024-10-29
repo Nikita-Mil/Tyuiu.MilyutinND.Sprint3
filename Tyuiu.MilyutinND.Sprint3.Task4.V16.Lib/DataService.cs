@@ -18,8 +18,7 @@ namespace Tyuiu.MilyutinND.Sprint3.Task4.V16.Lib
                     res = res + ((Math.Cos(x) + x) / x) + 0.25;
                 }
             }
-            //return Math.Round(res, 3);
-            return 6.719;
+            return Math.Round(res, 3);
         }
     }
 }
