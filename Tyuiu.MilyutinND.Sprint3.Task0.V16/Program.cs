@@ -33,12 +33,15 @@
 //Console.ReadKey();
 using System;
 
-string str = "l2ss 4il 45ps";
-foreach (char c in str)
+double s0 = 0;
+double s1 = 0;
+int x = 2;
+for (int j = 1; j <= 3; j++)
 {
-    if (Char.IsDigit(c))
+    for (int k = 1; k <= 3; k++)
     {
-        str = str.Replace(c, 'o');
+        s0 = k*x-3;
+        s1 += s0;
     }
 }
-Console.WriteLine(str);
+Console.WriteLine(Math.Round(s1, 3));
