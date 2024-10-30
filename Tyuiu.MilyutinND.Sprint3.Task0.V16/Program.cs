@@ -31,17 +31,19 @@
 
 //Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
 //Console.ReadKey();
-using System;
+using System.Diagnostics.CodeAnalysis;
 
-double s0 = 0;
-double s1 = 0;
-int x = 2;
-for (int j = 1; j <= 3; j++)
+int x;
+int count1 = 0;
+for (x = 2; x <= 8; x++)
 {
-    for (int k = 1; k <= 3; k++)
+    for (int d = 1; d <= x; d++)
+
     {
-        s0 = k*x-3;
-        s1 += s0;
+        if (x % d == 0)
+        { if ( d> 2) { count1++; }
+                }
+
     }
 }
-Console.WriteLine(Math.Round(s1, 3));
+Console.WriteLine(count1);
